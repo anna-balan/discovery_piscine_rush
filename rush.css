@@ -1,0 +1,27 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    transition: all .3s ease-in-out;
+}
+h1.fw-bold{
+    color: #0dcaf0;
+}
+.bg_image_hero{
+    background-image: url('https://images.unsplash.com/photo-1573495612077-a689b084faab?auto=format&fit=crop&q=80&w=2969&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.caption_custom{
+    z-index: 2;
+    position: relative;
+}
