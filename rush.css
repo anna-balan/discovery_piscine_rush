@@ -31,3 +31,6 @@ h1.fw-bold{
     width: 80%;
     font-family: 'Roboto', sans-serif;
 }
+section{
+    margin-top: 56px;
+}
