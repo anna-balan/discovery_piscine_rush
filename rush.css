@@ -34,6 +34,19 @@ h1.fw-bold{
     font-family: 'Roboto', sans-serif;
 }
 
+/* Color Theme Swatches in Hex */
+.ORE-1-hex { color: #3973BF; }
+.ORE-2-hex { color: #023059; }
+.ORE-3-hex { color: #77D9BD; }
+.ORE-4-hex { color: #8C7E72; }
+.ORE-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.ORE-1-rgba { color: rgba(57, 115, 191, 1); }
+.ORE-2-rgba { color: rgba(1, 48, 89, 1); }
+.ORE-3-rgba { color: rgba(119, 216, 189, 1); }
+.ORE-4-rgba { color: rgba(140, 126, 113, 1); }
+.ORE-5-rgba { color: rgba(12, 12, 12, 1); }
 /* cv page */
 nav.custom_nav{
     background-color: #023059;
@@ -62,6 +75,29 @@ nav.custom_nav .nav-link i{
     max-width: 320px;
     border-radius: 50%;
     margin-bottom: 30px;
+}
+.profile_pic{
+    --borderWidth: 3px;
+    background: transparent;
+    position: relative;
+    border-radius: 50%;
+    width: 340px;
+    height: 340px;
+    margin: 0 auto;
+}
+.profile_pic:after {
+    content: "";
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(60deg, #8C7E72, #023059, #3973BF, #77D9BD, #77D9BD, #6fba82);
+    border-radius: 50%;
+    z-index: -1;
+    animation: animatedgradient 2s ease alternate infinite;
+    background-size: 300% 300%;
+    transform: translate(-50%, -50%);
 }
 #About .profile_name, 
 #About .job_title{
@@ -141,40 +177,5 @@ margin-bottom: 20px;
 #Contact{
     background-color: #8C7E72;
 }
-/* Color Theme Swatches in Hex */
-.ORE-1-hex { color: #3973BF; }
-.ORE-2-hex { color: #023059; }
-.ORE-3-hex { color: #77D9BD; }
-.ORE-4-hex { color: #8C7E72; }
-.ORE-5-hex { color: #0D0D0D; }
 
-/* Color Theme Swatches in RGBA */
-.ORE-1-rgba { color: rgba(57, 115, 191, 1); }
-.ORE-2-rgba { color: rgba(1, 48, 89, 1); }
-.ORE-3-rgba { color: rgba(119, 216, 189, 1); }
-.ORE-4-rgba { color: rgba(140, 126, 113, 1); }
-.ORE-5-rgba { color: rgba(12, 12, 12, 1); }
 
-.profile_pic{
-    --borderWidth: 3px;
-    background: transparent;
-    position: relative;
-    border-radius: 50%;
-    width: 340px;
-    height: 340px;
-    margin: 0 auto;
-}
-.profile_pic:after {
-    content: "";
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(60deg, #8C7E72, #023059, #3973BF, #77D9BD, #77D9BD, #6fba82);
-    border-radius: 50%;
-    z-index: -1;
-    animation: animatedgradient 2s ease alternate infinite;
-    background-size: 300% 300%;
-    transform: translate(-50%, -50%);
-}
