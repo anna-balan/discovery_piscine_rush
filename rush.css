@@ -175,7 +175,7 @@ margin-bottom: 20px;
     margin-bottom: 0;
 }
 #Contact{
-    background-color: #8C7E72;
+    background-color: rgba(140, 126, 113, 0.5);
     text-align: left;
 }
 #Contact .contact_blocks{
@@ -186,7 +186,6 @@ margin-bottom: 20px;
     margin-top: 15px;
 }
 #Contact .contact_socials a{
-display: block;
 text-align: left;
 margin-left: 15px;
 }
@@ -194,7 +193,7 @@ margin-left: 15px;
     margin-top: -3px;
 }
 #Contact .contact_socials a:hover{
-   color: #77D9BD;
+   color: #3973BF;
 }
 #Contact .contact_form{
     font-family: 'Roboto', sans-serif;
@@ -210,15 +209,15 @@ font-family: 'Roboto', sans-serif;
 text-transform: uppercase;
 }
 #Contact .contact_form  .form-control{
-    background-color:  rgba(140, 126, 113, 0.5);
+    background-color:  rgba(140, 126, 113, 0.3);
     border-radius: 3px;
     color: #0D0D0D;
-    border-color: #77D9BD;
+    border-color: #023059;
 }
 #Contact .contact_form .form-control:focus {
     color: #0D0D0D;
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgba(119, 216, 189, .25);
+    box-shadow: 0 0 0 0.25rem rgba(1, 48, 89, .25);
 }
 #Contact .contact_form textarea { 
     resize: none; 
@@ -228,7 +227,7 @@ text-transform: uppercase;
 }
 
 @media screen and (max-width: 992px) {
-    #Contact .contact_socials a{
+    #Contact .contact_socials div{
        text-align: center;
     }
     #Contact .contact_blocks{
