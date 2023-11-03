@@ -15,10 +15,9 @@
  }
 
  body {
-   background-color: bisque;
+   background-color: rgb(248, 228, 204);
    overflow-x: hidden;
    padding-left: 35rem;
-   /*padding-top: 3rem;*/
  }
 
  header {
@@ -27,7 +26,7 @@
    left: 0;
    z-index: 1000;
    height: 100%;
-   background-color: rgb(148, 211, 190);
+   background-color: rgb(216, 236, 230);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -166,7 +165,7 @@ section {
 }
 
 .about .row .info h3 span {
-   color: orange;
+   color: rgb(84, 36, 99);
    padding: 0 .5rem;
 }
 
@@ -179,7 +178,7 @@ section {
 
 .about .row .counter .box {
    width: 50rem;
-   background: rgb(184, 198, 184);
+   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
    text-align: center;
    padding: 2rem;
    margin: 2rem;
@@ -309,12 +308,12 @@ section {
    padding: 0.5rem;
 }
 
-.contact .copyright {
+.copyright {
    text-align: center;
    padding: 2rem;
-   margin-top: 5rem;
    margin-right: 3rem;
+   margin-top: -5rem;
    font-size: 1.2rem;
    border-top: .1rem solid rgb(103, 109, 177);
    color: rgb(60, 80, 117);
-}
+} 
